@@ -97,14 +97,19 @@ main{
 @media(max-width:602px){
     .data1{
         
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 14px;
+        line-height: 20px;
     }
     #horaCero{
-        font-size: 20px;
+        font-size: 18px;
     }
     main{
         max-width: 98vw;
-        background-repeat:unset;
+        background-repeat:no-repeat;
+        background-repeat:repeat-y;
+        background-size:contain;
+    }
+    header{
+        height: fit-content;
     }
 }
